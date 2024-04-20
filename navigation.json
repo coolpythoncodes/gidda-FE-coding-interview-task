@@ -1,0 +1,111 @@
+{
+    "navbarNavigation": [
+        {
+            "link": "/",
+            "label": "Home"
+        },
+        {
+            "link": "/#",
+            "label": "Properties"
+        },
+        {
+            "link": "/#",
+            "label": "Developers"
+        },
+        {
+            "link": "/#",
+            "label": "Mortgage Banks"
+        },
+        {
+            "link": "/#",
+            "label": "Consult an Expert"
+        }
+    ],
+    "footerLinks": {
+        "categories": [
+            {
+                "heading": "developers",
+                "links": [
+                    {
+                        "link": "/#",
+                        "label": "Join as a Developer"
+                    }
+                ]
+            },
+            {
+                "heading": "banks",
+                "links": [
+                    {
+                        "link": "/#",
+                        "label": "Join as a Bank"
+                    }
+                ]
+            },
+            {
+                "heading": "legal",
+                "links": [
+                    {
+                        "link": "/#",
+                        "label": "Privacy Policy"
+                    },
+                    {
+                        "link": "/#",
+                        "label": "Terms & Conditions"
+                    }
+                ]
+            },
+            {
+                "heading": "contact us",
+                "links": [
+                    {
+                        "link": "/#",
+                        "label": "info@giddaa.com"
+                    },
+                    {
+                        "link": "/#",
+                        "label": "WhatsApp"
+                    }
+                ]
+            },
+            {
+                "heading": "site navigation",
+                "links": [
+                    {
+                        "link": "/#",
+                        "label": "Properties"
+                    },
+                    {
+                        "link": "/#",
+                        "label": "Developers"
+                    },
+                    {
+                        "link": "/#",
+                        "label": "Banks"
+                    }
+                ]
+            }
+        ]
+    },
+    "socialLinks": [
+        {
+            "link": "/#",
+            "icon": "linkedln"
+        },
+        {
+            "link": "/#",
+            "icon": "twitter"
+        },
+        {
+            "link": "/#",
+            "icon": "instagram"
+        },
+        {
+            "link": "/#",
+            "icon": "tiktok"
+        },
+        {
+            "link": "/#",
+            "icon": "facebook"
+        }
+    ]
+}

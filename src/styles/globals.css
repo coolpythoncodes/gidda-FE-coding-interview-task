@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .layout-container {
+    @apply mx-auto  w-11/12;
+  }
+
+  .error {
+    @apply border border-red-500;
+  }
+}
