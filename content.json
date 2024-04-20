@@ -1,0 +1,122 @@
+{
+    "why": [
+        {
+            "title": "Stay Scam Free!",
+            "text": "We partner directly with trusted banks and developers. Your applications are sent straight to them, eliminating the need for agents, close relatives or friends. We connect you directly to the source.",
+            "defaultIcon": "scamFree"
+        },
+        {
+            "title": "Streamline Your Search",
+            "text": "We simplify your property search by presenting comprehensive information in a visual and easily understandable format, making decision making easier and quicker for you along your journey.",
+            "defaultIcon": "scamFree",
+            "hoverIcon": "streamLineDefault"
+        },
+        {
+            "title": "Multiple Purchase Options",
+            "text": "We provide you with a diverse range of housing options and flexible financing plans, ensuring you have a wide selection of choices to suit your preferences and current financial situation.",
+            "defaultIcon": "purchaseOptions"
+        },
+        {
+            "title": "Pay Online & Track All Payments",
+            "text": "Pay online and track every single payment you make. We make your transactions clear as day between you and the partner you purchase from ,be it a property developer or bank.",
+            "defaultIcon": "afford"
+        },
+        {
+            "title": "Find What You Can Afford",
+            "text": "We use affordability tags to visually display properties and financing plans you can afford based on age and income, which could help you simplify your decision-making.",
+            "defaultIcon": "afford"
+        },
+        {
+            "title": "Apply Online — in 5 Mins, and Track Your Application.",
+            "text": "On Giddaa, we don’t tell you to fill a form and we will get back to you. You can apply for your home 100% online and track your application as it is being processed by the developer or bank.",
+            "defaultIcon": "trackApplication"
+        },
+        {
+            "title": "See It For Yourself — Virtual Viewings",
+            "text": "Living abroad? We offer a service that allows you to view the property through a video call. We also send a report of the condition of the property after the viewing. We’re not quite at the VR level yet. 😁",
+            "defaultIcon": "virtualViewing"
+        },
+        {
+            "title": "Manage Terms and Documentation",
+            "text": "All terms between you and the developer or bank are managed online. You can view the terms you’ve offered, send revisions, if need be all online. You can also view and manage important documents like offer letters online.",
+            "defaultIcon": "manageTerms"
+        }
+    ],
+    "trustedByPeople": [
+        {
+            "id": "lanre-edun",
+            "name": "Lanre Edun",
+            "role": "HEAD OF MARKETING AT BRAINS & HAMMERS"
+        },
+        {
+            "id": "kunle-fatimehin",
+            "name": "Kunle Fatimehin",
+            "role": "DIRECTOR OF DIGITAL & INNOVATION AT KAIROS HOF"
+        },
+        {
+            "id": "emmanuel-uge",
+            "name": "Emmanuel Uge",
+            "role": "DIRECTOR OF SALES AT WIGWE INFRASTURUCTURE"
+        },
+        {
+            "id": "dooshima-anakaa",
+            "name": "Dooshima Anakaa",
+            "role": "DIRECTOR OF FINANCE AT IKPAAHINDI VENTURES"
+        }
+    ],
+    "sectors": [
+        {
+            "sectorName": "private",
+            "heading": "Private Sector Workers",
+            "description": "Whether you’re a doctor, nurse, banker, tech bro or sis, or work in another industry in the private sector, Giddaa assists individuals looking to purchase property without straining their budget or breaking the bank. In the face of rising property prices, we empower middle-class individuals, like you, to achieve homeownership!",
+            "extras": [
+                "Join The Homeowners Club!",
+                "Don’t Let Rent Go Up On You, Again!!",
+                "Build A Solid Foundation For Your Family",
+                "No Agency Fees. Giddaa is Free!"
+            ],
+            "image": "private-image",
+            "icon": "privateIcon"
+        },
+        {
+            "sectorName": "public",
+            "heading": "Public Sector Workers",
+            "description": "You serve the people, and now let us serve you!. Government workers can effortlessly apply for a National Housing Fund (NHF) loan through a primary mortgage bank with Giddaa—no stress or connections needed. Giddaa ensures a seamless application process for NHF loans, and government workers can seamlessly explore alternative properties and plans beyond NHF.",
+            "extras": [
+                "Have A Place You Can Call Yours!",
+                "Don’t Let Rent Go Up On You, Again!!",
+                "Build A Solid Foundation For Your Family.",
+                "No Agency Fees. Giddaa is Free!"
+            ],
+            "image": "public-image",
+            "icon": "publicIcon"
+        },
+        {
+            "sectorName": "business",
+            "heading": "Business Owners & Investors.",
+            "description": "Whether you’re a doctor, nurse, banker, tech bro or sis, or work in another industry in the private sector, Giddaa assists individuals looking to purchase property without straining their budget or breaking the bank. In the face of rising property prices, we empower middle-class individuals, like you, to achieve homeownership!",
+            "extras": [
+                "Work From “Your Own Home”",
+                "Don’t Let Rent Go Up On You, Again!!",
+                "Build a Solid Foundation for your Family",
+                "No Agency Fees. Giddaa is Free!"
+            ],
+            "image": "private-image",
+            "icon": "privateIcon"
+        }
+    ],
+    "stats": [
+        {
+            "figures": "180",
+            "text": "NO OF PROPERTIES"
+        },
+        {
+            "figures": "1,800",
+            "text": "NO OF UNITS"
+        },
+        {
+            "figures": 32,
+            "text": "PLANS/METHODS YOU CAN PURCHASE YOUR HOME"
+        }
+    ]
+}

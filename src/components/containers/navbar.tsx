@@ -1,7 +1,7 @@
 
 const Navbar = () => {
     return (
-        <div>Navbar</div>
+        <div className="h-[116px] border border-green-500">Navbar</div>
     )
 }
 
