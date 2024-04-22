@@ -11,3 +11,23 @@
     @apply border border-red-500;
   }
 }
+
+.slick-list {
+  margin: 0 -10px !important;
+  padding: 0 20% 0 0 !important;
+}
+
+.slick-slide > div {
+  padding: 0 10px !important;
+}
+
+@media (min-width: 768px) {
+  .slick-list {
+    /* margin: 0 -40px !important; */
+    padding: 0 20% 0 0 !important;
+  }
+
+  .slick-slide > div {
+    padding: 0 40px !important;
+  }
+}

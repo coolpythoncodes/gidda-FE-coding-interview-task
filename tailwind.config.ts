@@ -13,6 +13,8 @@ export default {
         secondary: '#0A7E32',
         tertiaryYellow: '#F5F5DE',
         lightAccentGreen: '#F3FAF2',
+        lightGrey: '#F0F0F0',
+        darkGrey: '#4B4B4B',
       },
     },
   },

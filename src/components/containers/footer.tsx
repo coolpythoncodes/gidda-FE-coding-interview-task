@@ -1,21 +1,18 @@
-import { cn } from '@/lib/utils';
+import { IconElement, cn } from '@/lib/utils';
 import groupAvatars from '@/public/group-avatars.png';
 import whatsappIcon from '@/public/whatsapp.png';
-import { type IconType } from '@/types/navigation';
 import { ArrowRight } from 'lucide-react';
 import { siteNavigation } from 'next.json';
 import Image from 'next/image';
 import Link from 'next/link';
 import { createElement } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import { Icons } from '../common/icons';
 import PageWrapper from './page-wrapper';
 
 const Footer = () => {
     const isBold = (category: string) =>
         category === 'developers' || category === 'banks';
 
-    const IconElement = (icon: IconType) => Icons[icon];
     return (
         <footer className="border-t-[10px] border-[#D8D8D8]">
             <div className="bg-primary pb-[33px] pt-[42px]">

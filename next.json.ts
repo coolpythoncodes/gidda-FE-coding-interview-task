@@ -1,5 +1,5 @@
 
-import { SiteContent } from '@/types/content';
+import { type SiteContent } from '@/types/content';
 import { type SiteNavigation } from '@/types/navigation';
 import _siteContent from './content.json';
 import _siteNavigation from './navigation.json';

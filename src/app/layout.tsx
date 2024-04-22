@@ -27,7 +27,7 @@ export default function RootLayout({
           red_hat_display.className,
           red_hat_display.variable,
           millik.variable,
-          millik.className,
+          millik.className
         )}
       >
         {children}

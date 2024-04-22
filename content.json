@@ -8,8 +8,8 @@
         {
             "title": "Streamline Your Search",
             "text": "We simplify your property search by presenting comprehensive information in a visual and easily understandable format, making decision making easier and quicker for you along your journey.",
-            "defaultIcon": "scamFree",
-            "hoverIcon": "streamLineDefault"
+            "defaultIcon": "streamLineDefault",
+            "hoverIcon": "streamLineHover"
         },
         {
             "title": "Multiple Purchase Options",
@@ -62,6 +62,38 @@
             "id": "dooshima-anakaa",
             "name": "Dooshima Anakaa",
             "role": "DIRECTOR OF FINANCE AT IKPAAHINDI VENTURES"
+        }
+    ],
+    "trustedByCompanies": [
+        {
+            "id": "vimeo"
+        },
+        {
+            "id": "chrome"
+        },
+        {
+            "id": "dropbox"
+        },
+        {
+            "id": "reddit"
+        },
+        {
+            "id": "viber"
+        },
+        {
+            "id": "vimeo"
+        },
+        {
+            "id": "chrome"
+        },
+        {
+            "id": "dropbox"
+        },
+        {
+            "id": "reddit"
+        },
+        {
+            "id": "viber"
         }
     ],
     "sectors": [
@@ -117,6 +149,50 @@
         {
             "figures": 32,
             "text": "PLANS/METHODS YOU CAN PURCHASE YOUR HOME"
+        }
+    ],
+    "peopleStories": [
+        {
+            "text": "I was scammed, by my wife!",
+            "person": "~ DIASPORAN LIVING IN IRELAND"
+        },
+        {
+            "text": "The form was too long!",
+            "person": "~ GOVERNMENT WORKER IN ABUJA"
+        },
+        {
+            "text": "I can’t track my repayments",
+            "person": "~ NGO WORKER WHO RECENTLY PURCHASED AN APARTMENT"
+        },
+        {
+            "text": "They sell to diasporan clients at higher prices, that’s price discrimination. It is not fair.",
+            "person": "~ SOMEONE IN CANADA"
+        },
+        {
+            "text": "They gave me a housing list on paper to find the house. In today’s tech world? Haba!",
+            "person": "~ MORTGAGE SEEKER IN ABUJA, NIGERIA."
+        }
+    ],
+    "howItWorks": [
+        {
+            "title": "Find Your Dream Home.",
+            "text": "Choose from the variety of properties available on the platform. You have various options to select from. From completed properties, off-plan properties, and properties in-construction",
+            "icon": "oneBackground"
+        },
+        {
+            "title": "Select A Plan.",
+            "text": "Choose the best way YOU want to buy your dream home. We do most of the hardwork by automatically calculating which properties you are able to afford, as long as you put in your correct age and income.",
+            "icon": "numbersBackground"
+        },
+        {
+            "title": "Book A Viewing",
+            "text": "We give you several options to book a viewing for the property. You can view it yourself, with our agent (for a small fee), or use someone you trust, maybe a family member or close friend. Choose a date and time and book your viewing.",
+            "icon": "numbersBackground"
+        },
+        {
+            "title": "Apply!",
+            "text": "After you have booked a viewing and you are satisfied with the viewing, you acknowledge having viewed the property and then proceed to submit the document required by the organzation you are applying to.",
+            "icon": "numbersBackground"
         }
     ]
 }
