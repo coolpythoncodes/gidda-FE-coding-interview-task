@@ -1,6 +1,18 @@
+"use client"
+
 import Card from '@/components/common/card';
 
+
 const SummaryTab = () => {
+    // const { data, isLoading } = useQuery({
+    //     queryKey: ['getSummary'],
+    //     queryFn: () => getSummary(),
+    // });
+    // console.log('data', data);
+
+    // if (isLoading) {
+    //     return <div>Loading...</div>;
+    // }
     return (
         <div className="mt-8 space-y-6">
             <div className="space-y-4">

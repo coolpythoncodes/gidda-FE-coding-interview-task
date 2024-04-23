@@ -1,5 +1,6 @@
 import { millik, red_hat_display } from '@/lib/font';
 import { cn } from '@/lib/utils';
+import Providers from '@/providers';
 import '@/styles/globals.css';
 
 export const metadata = {
@@ -30,7 +31,7 @@ export default function RootLayout({
           millik.className
         )}
       >
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
