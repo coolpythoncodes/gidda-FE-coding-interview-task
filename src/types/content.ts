@@ -34,13 +34,25 @@ type HowItWorks = {
 }[];
 
 type Sectors = {
-  sectorName: "private" | "public" | "busines";
+  sectorName: 'private' | 'public' | 'busines';
   heading: string;
   description: string;
   extras: string[];
   icon: IconType;
   image: string;
 }[];
+
+export enum TabsType {
+  Summary = 'summary',
+  Success = 'success',
+  Expected = 'expected',
+  Defaults = 'defaults',
+}
+
+type TransactionTabs = {
+  value: TabsType;
+  label: "summary" | "success transactions" | "expected transactions" | "defaults";
+}[]
 
 export type SiteContent = {
   why: Why;
@@ -49,5 +61,6 @@ export type SiteContent = {
   stats: Stats;
   peopleStories: PeopleStories;
   howItWorks: HowItWorks;
-  sectors: Sectors
+  sectors: Sectors;
+  transactionTabs: TransactionTabs;
 };

@@ -194,5 +194,23 @@
             "text": "After you have booked a viewing and you are satisfied with the viewing, you acknowledge having viewed the property and then proceed to submit the document required by the organzation you are applying to.",
             "icon": "numbersBackground"
         }
+    ],
+    "transactionTabs": [
+        {
+            "label": "summary",
+            "value": "summary"
+        },
+        {
+            "label": "successfull transactions",
+            "value": "success"
+        },
+        {
+            "label": "expected transactions",
+            "value": "expected"
+        },
+        {
+            "label": "defaults",
+            "value": "defaults"
+        }
     ]
 }
