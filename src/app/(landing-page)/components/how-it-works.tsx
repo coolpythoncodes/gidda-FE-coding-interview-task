@@ -20,21 +20,21 @@ const HowItWorks = () => {
                     {siteContent?.howItWorks?.map((item, index) => (
                         <div
                             key={uuidv4()}
-                            className="flex  items-start gap-x-2 text-primary xl:gap-x-4 [&:nth-child(1)&>.first]:bg-lightAccentGreen [&:nth-child(1)&>div>.first-text]:text-white"
+                            className="flex items-start gap-x-2 text-primary 2xl:gap-x-4 [&:nth-child(1)&>.first]:bg-lightAccentGreen [&:nth-child(1)&>div>.first-text]:text-white"
                         >
                             <div className="relative hidden h-20 w-10 md:block xl:h-[81px] xl:w-[61px]">
                                 {createElement(IconElement(item?.icon), {
-                                    className: 'h-20 w-10 xl:w-[61px] xl:h-[81px]',
+                                    className: 'h-20 w-10 xl:w-14 xl:h-20 2xl:w-[61px] 2xl:h-[81px]',
                                 })}
-                                <p className="first-text absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-millik  md:text-xl lg:text-[30px]">
+                                <p className="first-text absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-millik text-primary md:text-xl lg:text-[30px]">
                                     {index + 1}
                                 </p>
                             </div>
-                            <div className="first space-y-4 rounded-[20px]  py-6 pl-[31px] pr-6 md:pl-4 md:pr-4 lg:pl-[31px] lg:pr-6 xl:w-fit">
-                                <h3 className="font-millik text-2xl leading-[34px] text-primary">
+                            <div className="first space-y-4 rounded-[20px]  py-6 pl-[31px] pr-6 md:pl-4 md:pr-4 lg:pl-[31px] lg:pr-6 xl:pl-4 xl:pr-6 2xl:pl-[31px] 2xl:pr-6 xl:w-fit">
+                                <h3 className="font-millik text-2xl leading-[34px] xl:text-xl text-primary 2xl:text-2xl 2xl:leading-[34px]">
                                     {item?.title}
                                 </h3>
-                                <p className="font-redHatDisplay text-sm font-normal leading-[30px] text-black xl:w-[336px]">
+                                <p className="font-redHatDisplay text-sm font-normal leading-[30px] text-black 2xl:w-[336px]">
                                     {item?.text}
                                 </p>
                                 <Button className="rounded-[100px] border border-primary bg-white font-redHatDisplay text-xs font-medium leading-[23px] text-primary hover:text-white">
@@ -45,16 +45,15 @@ const HowItWorks = () => {
                         </div>
                     ))}
 
-                    <div key={uuidv4()} className="flex items-start gap-x-2 xl:gap-x-4">
+                    <div key={uuidv4()} className="flex items-start gap-x-2 2xl:gap-x-4">
                         <div className="relative hidden h-20 w-10 md:block xl:h-[81px] xl:w-[61px]">
                             {createElement(IconElement('numbersBackground'), {
-                                className: 'h-20 w-10 xl:w-[61px] xl:h-[81px]',
+                                className: 'h-20 w-10 xl:w-14 xl:h-20 2xl:w-[61px] 2xl:h-[81px]',
                             })}
                             <p
                                 className={cn(
                                     `absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-millik text-primary md:text-xl lg:text-[30px]`
                                 )}
-                                w-f
                             >
                                 5
                             </p>
@@ -64,10 +63,10 @@ const HowItWorks = () => {
                                 `space-y-4 rounded-[20px] bg-lightAccentGreen py-6 pl-[31px] pr-6 md:bg-white md:pl-4 md:pr-4 lg:pl-[31px] lg:pr-6 xl:w-fit`
                             )}
                         >
-                            <h3 className="font-millik text-2xl leading-[34px] text-primary">
+                            <h3 className="font-millik text-2xl leading-[34px] xl:text-xl text-primary">
                                 Wait For Application Processing
                             </h3>
-                            <p className="font-redHatDisplay text-sm font-normal leading-[30px] text-black xl:w-[336px]">
+                            <p className="font-redHatDisplay text-sm font-normal leading-[30px] text-black 2xl:w-[336px]">
                                 The partner (
                                 <span className="font-bold">Developer or Bank</span>) you
                                 applied to will process your application and the submitted
@@ -81,10 +80,10 @@ const HowItWorks = () => {
                         </div>
                     </div>
 
-                    <div className="flex items-start gap-x-2 xl:gap-x-4">
+                    <div className="flex items-start gap-x-2 2xl:gap-x-4">
                         <div className="relative hidden h-20 w-10 md:block xl:h-[81px] xl:w-[61px]">
                             {createElement(IconElement('numbersBackground'), {
-                                className: 'h-20 w-10 xl:w-[61px] xl:h-[81px]',
+                                className: 'h-20 w-10 xl:w-14 xl:h-20 2xl:w-[61px] 2xl:h-[81px]',
                             })}
                             <p
                                 className={cn(
@@ -99,10 +98,10 @@ const HowItWorks = () => {
                                 `space-y-4 rounded-[20px] bg-lightAccentGreen py-6 pl-[31px] pr-6 md:bg-white md:pl-4 md:pr-4 lg:pl-[31px] lg:pr-6 xl:w-fit`
                             )}
                         >
-                            <h3 className="font-millik text-2xl leading-[34px] text-primary">
+                            <h3 className="font-millik text-2xl leading-[34px] xl:text-xl text-primary 2xl:leading-[34px] 2xl:text-2xl">
                                 Accept Terms & Make Payment
                             </h3>
-                            <p className="font-redHatDisplay text-sm font-normal leading-[30px] text-black xl:w-[336px]">
+                            <p className="font-redHatDisplay text-sm font-normal leading-[30px] text-black 2xl:w-[336px]">
                                 If the partner accepts your application, they will submit the
                                 terms of your <span className="font-bold">application</span> and
                                 an offer letter or a term sheet for you to review. If you accept

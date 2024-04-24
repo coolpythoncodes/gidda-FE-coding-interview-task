@@ -35,7 +35,7 @@ const HambugerMenu = () => {
                     />
                 </SheetHeader>
                 <div className="grid gap-4 py-4">
-                    <nav className="text-darkGrey flex flex-col gap-4 py-4 font-redHatDisplay text-base font-bold">
+                    <nav className="flex flex-col gap-4 py-4 font-redHatDisplay text-base font-bold text-darkGrey">
                         {siteNavigation?.navbarNavigation?.map((link) => (
                             <Link
                                 key={uuidv4()}
@@ -46,7 +46,9 @@ const HambugerMenu = () => {
                             </Link>
                         ))}
                     </nav>
-                    <Button>Login</Button>
+                    <Link href="/login">
+                        <Button className='w-full'>Login</Button>
+                    </Link>
                 </div>
             </SheetContent>
         </Sheet>

@@ -25,13 +25,13 @@ const PurchaseOptions = () => {
                         from!
                     </p>
                 </div>
-                <div className="grid gap-x-[84px] gap-y-10 lg:grid-cols-2 xl:grid-cols-3">
+                <div className="grid gap-x-[84px] gap-y-10 lg:grid-cols-2 xl:grid-cols-3 xl:gap-x-5 2xl:gap-x-[84px]">
                     {/* Mortgages */}
                     <div className="rounded-[30px] bg-lightAccentGreen py-6 pl-[19px] pr-[15px] transition duration-300 hover:cursor-pointer hover:border-[3px] hover:border-primary">
                         <div className="flex items-center">
                             <Image src={slowTurtle as StaticImageData} alt="" />
                             <div className="flex-1 text-center">
-                                <h1 className="font-millik text-lg text-primary md:text-[32px] md:leading-[37px]">
+                                <h1 className="font-millik text-lg text-primary md:text-[32px] md:leading-[37px] xl:text-3xl 2xl:text-[32px] 2xl:leading-[37px]">
                                     Mortgages
                                 </h1>
                                 <p className="font-redHatDisplay text-xs font-medium text-black md:text-sm md:leading-8">
@@ -96,7 +96,7 @@ const PurchaseOptions = () => {
                             </div>
                         </div>
                         <div className="flex justify-center">
-                            <Button className="mt-[26px] h-[57px] rounded-[100px] border border-primary bg-white font-redHatDisplay text-xs font-medium leading-[23px] text-primary hover:text-white md:w-[319px] lg:mt-[160px]">
+                            <Button className="mt-[26px] h-[57px] rounded-[100px] border border-primary bg-white font-redHatDisplay text-xs font-medium leading-[23px] text-primary hover:text-white md:w-[319px] lg:mt-[160px] xl:mt-[220px] 2xl:mt-[160px]">
                                 <Icons.videoIcon className="mr-[6px] h-7 w-7 md:h-[37px] md:w-[37px]" />
                                 WATCH THE VIDEO TO LEARN MORE
                             </Button>
@@ -107,7 +107,7 @@ const PurchaseOptions = () => {
                         <div className="flex items-center">
                             <Image src={horse as StaticImageData} alt="" />
                             <div className="flex-1 text-center">
-                                <h1 className="font-millik text-lg text-primary md:text-[32px] md:leading-[37px]">
+                                <h1 className="font-millik text-lg text-primary md:text-[32px] md:leading-[37px] xl:text-3xl 2xl:text-[32px] 2xl:leading-[37px]">
                                     Payment Plans
                                 </h1>
                                 <p className="font-redHatDisplay text-xs font-medium text-black md:text-sm md:leading-8">
@@ -249,7 +249,7 @@ const PurchaseOptions = () => {
                             </div>
                         </div>
                         <div className="flex justify-center">
-                            <Button className="mt-[26px] h-[57px] rounded-[100px] border border-primary bg-white font-redHatDisplay text-xs font-medium leading-[23px] text-primary hover:text-white md:w-[319px] lg:mt-[101px]">
+                            <Button className="mt-[26px] h-[57px] rounded-[100px] border border-primary bg-white font-redHatDisplay text-xs font-medium leading-[23px] text-primary hover:text-white md:w-[319px] lg:mt-[101px] xl:mt-[80px] 2xl:mt-[101px]">
                                 <Icons.videoIcon className="mr-[6px] h-7 w-7 md:h-[37px] md:w-[37px]" />
                                 WATCH THE VIDEO TO LEARN MORE
                             </Button>

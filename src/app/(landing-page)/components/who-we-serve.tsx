@@ -32,14 +32,14 @@ const WhoWeServe = () => {
             </h1>
             <Icons.underline className="absolute left-5 w-[100px] md:bottom-2  md:left-14 md:w-[220px]" />
           </div>
-          <div className="mt-[57px] grid gap-y-10 lg:grid-cols-2 lg:items-center lg:gap-x-10 xl:grid-cols-[2fr_1fr] xl:items-start xl:gap-x-[144px]">
+          <div className="mt-[57px] grid gap-y-10 lg:grid-cols-2 lg:items-center lg:gap-x-10  xl:items-start 2xl:gap-x-[144px]">
             <Parallax speed={10}>
               <div className="space-y-4 md:space-y-8">
-                <Icons.aeroplane className="h-14 w-14 md:h-20 md:w-20 lg:h-14 lg:w-14 xl:h-[125px] xl:w-[125px]" />
-                <h1 className="font-millik text-2xl text-secondary/30 md:text-6xl lg:text-5xl xl:text-[80px]">
+                <Icons.aeroplane className="h-14 w-14 md:h-20 md:w-20 lg:h-14 lg:w-14 xl:h-20 xl:w-20 2xl:h-[125px] 2xl:w-[125px]" />
+                <h1 className="font-millik text-2xl text-secondary/30 md:text-6xl lg:text-5xl 2xl:text-[80px]">
                   The Diaspora
                 </h1>
-                <p className="font-redHatDisplay text-sm text-black md:text-lg md:leading-8 lg:text-sm xl:text-lg xl:leading-8">
+                <p className="font-redHatDisplay text-sm text-black md:text-lg md:leading-8 lg:text-sm 2xl:text-lg 2xl:leading-8">
                   Living outside Nigeria? Thinking about buying a place{' '}
                   <span className="font-bold">Back Home</span> for viists (No
                   need for hotels, Airbnbs, or your parent’s house), Investment,
@@ -47,7 +47,7 @@ const WhoWeServe = () => {
                   spending more time back home . If any of those sounds like
                   you, we can help you along your home purchase journey.
                 </p>
-                <ul className="*:grid:md:grid-cols-[20px_auto] grid grid-cols-2  gap-y-5 text-xs text-primary *:grid *:grid-cols-[16px_auto] *:items-center *:gap-x-3 md:text-base  md:leading-8 *:md:grid-cols-[20px_auto] *:md:gap-x-5 lg:gap-y-5 lg:text-xs xl:items-start xl:gap-y-[47px] xl:text-base xl:leading-8">
+                <ul className="*:grid:md:grid-cols-[20px_auto] grid grid-cols-2  gap-y-5 text-xs text-primary *:grid *:grid-cols-[16px_auto] *:items-center *:gap-x-3 md:text-base  md:leading-8 *:md:grid-cols-[20px_auto] *:md:gap-x-5 lg:gap-y-5 lg:text-xs xl:items-start 2xl:gap-y-[47px] 2xl:text-base 2xl:leading-8">
                   <li>
                     <CircleChevronDown className="h-4 w-4 md:h-5 md:w-5" />
                     No Agency Fees, Giddaa Is Free!
@@ -81,14 +81,14 @@ const WhoWeServe = () => {
       {/* Naija Remote Workers */}
       <section className="bg-lightAccentGreen py-10 xl:py-[90px]">
         <PageWrapper>
-          <div className="mt-[57px] grid gap-y-10 lg:grid-cols-2 lg:items-center lg:gap-x-10 xl:grid-cols-[2fr_1fr] xl:items-start xl:gap-x-[144px]">
+          <div className="mt-[57px] grid gap-y-10 lg:grid-cols-2 lg:items-center lg:gap-x-10  xl:items-start 2xl:gap-x-[144px]">
             <Parallax speed={10}>
               <div className="space-y-4 md:space-y-8">
-                <Icons.remoteWorkerIcon className="h-14 w-14 md:h-20 md:w-20 lg:h-14 lg:w-14 xl:h-[125px] xl:w-[125px]" />
-                <h1 className="font-millik text-2xl text-primary md:text-6xl lg:text-5xl xl:text-[80px]">
+                <Icons.remoteWorkerIcon className="h-14 w-14 md:h-20 md:w-20 lg:h-14 lg:w-14 xl:h-20 xl:w-20 2xl:h-[125px] 2xl:w-[125px]" />
+                <h1 className="font-millik text-2xl text-secondary/30 md:text-6xl lg:text-5xl 2xl:text-[80px]">
                   Naija Remote Workers
                 </h1>
-                <p className="font-redHatDisplay text-sm text-black md:text-lg md:leading-8 lg:text-sm xl:text-lg xl:leading-8">
+                <p className="font-redHatDisplay text-sm text-black md:text-lg md:leading-8 lg:text-sm 2xl:text-lg 2xl:leading-8">
                   Do you work from{' '}
                   <span className="font-bold line-through">home?</span> Your own
                   Home? With Giddaa, that’s possible. You don’t need to have all
@@ -97,7 +97,7 @@ const WhoWeServe = () => {
                   current earning capacity to build equity in a home of your
                   own.
                 </p>
-                <ul className="*:grid:md:grid-cols-[20px_auto] grid grid-cols-2  gap-y-5 text-xs text-primary *:grid *:grid-cols-[16px_auto] *:items-center *:gap-x-3 md:text-base  md:leading-8 *:md:grid-cols-[20px_auto] *:md:gap-x-5 lg:gap-y-5 lg:text-xs xl:items-start xl:gap-y-[47px] xl:text-base xl:leading-8">
+                <ul className="*:grid:md:grid-cols-[20px_auto] grid grid-cols-2  gap-y-5 text-xs text-primary *:grid *:grid-cols-[16px_auto] *:items-center *:gap-x-3 md:text-base  md:leading-8 *:md:grid-cols-[20px_auto] *:md:gap-x-5 lg:gap-y-5 lg:text-xs xl:items-start 2xl:gap-y-[47px] 2xl:text-base 2xl:leading-8">
                   <li>
                     <CircleChevronDown className="h-4 w-4 md:h-5 md:w-5" />
                     Work From “Your Own Home”
@@ -133,17 +133,17 @@ const WhoWeServe = () => {
             })}
           >
             <PageWrapper>
-              <div className="mt-[57px] grid gap-y-10 lg:grid-cols-2 lg:items-center lg:gap-x-10 xl:grid-cols-[2fr_1fr] xl:items-start xl:gap-x-[144px]">
+              <div className="mt-[57px] grid gap-y-10 lg:grid-cols-2 lg:items-center lg:gap-x-10  xl:items-start 2xl:gap-x-[144px]">
                 <Parallax speed={10}>
                   <div className="space-y-4 md:space-y-8">
                     {createElement(IconElement(sector?.icon), {
                       className:
-                        'h-14 w-14 md:h-20 md:w-20 lg:h-14 lg:w-14 xl:h-[125px] xl:w-[125px]',
+                        'h-14 w-14 md:h-20 md:w-20 lg:h-14 lg:w-14 xl:h-20 xl:w-20 2xl:h-[125px] 2xl:w-[125px]',
                     })}
                     {/* <Icons.aeroplane className="h-14 w-14 md:h-20 md:w-20 lg:h-14 lg:w-14 xl:h-[125px] xl:w-[125px]" /> */}
                     <h1
                       className={cn(
-                        `font-millik text-2xl text-secondary/30 md:text-6xl lg:text-5xl xl:text-[80px]`,
+                        `font-millik text-2xl text-secondary/30 md:text-6xl lg:text-5xl 2xl:text-[80px]`,
                         {
                           'text-primary': sector?.sectorName === 'public',
                         }
@@ -151,10 +151,10 @@ const WhoWeServe = () => {
                     >
                       {sector?.heading}
                     </h1>
-                    <p className="font-redHatDisplay text-sm text-black md:text-lg md:leading-8 lg:text-sm xl:text-lg xl:leading-8">
+                    <p className="font-redHatDisplay text-sm text-black md:text-lg md:leading-8 lg:text-sm 2xl:text-lg 2xl:leading-8">
                       {sector?.description}
                     </p>
-                    <ul className="*:grid:md:grid-cols-[20px_auto] grid grid-cols-2  gap-y-5 text-xs text-primary *:grid *:grid-cols-[16px_auto] *:items-center *:gap-x-3 md:text-base  md:leading-8 *:md:grid-cols-[20px_auto] *:md:gap-x-5 lg:gap-y-5 lg:text-xs xl:items-start xl:gap-y-[47px] xl:text-base xl:leading-8">
+                    <ul className="*:grid:md:grid-cols-[20px_auto] grid grid-cols-2  gap-y-5 text-xs text-primary *:grid *:grid-cols-[16px_auto] *:items-center *:gap-x-3 md:text-base xl:gap-x-2  md:leading-8 *:md:grid-cols-[20px_auto] *:md:gap-x-5 lg:gap-y-5 lg:text-xs xl:items-start 2xl:gap-y-[47px] 2xl:text-base 2xl:leading-8">
                       {sector?.extras?.map((item) => (
                         <li key={uuidv4()}>
                           <CircleChevronDown className="h-4 w-4 md:h-5 md:w-5" />
@@ -164,7 +164,10 @@ const WhoWeServe = () => {
                     </ul>
                   </div>
                 </Parallax>
-                <Parallax speed={-10} scale={[0.8, 1, 'easeInQuad']}>
+                <Parallax
+                  speed={-10}
+                  scale={[0.8, 1, 'easeInQuad']}
+                >
                   {/* @ts-expect-error unknown error */}
                   <Image src={sectorImages[sector?.image]} alt="" />
                 </Parallax>

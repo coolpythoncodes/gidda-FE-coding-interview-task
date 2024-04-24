@@ -19,18 +19,18 @@ import WhoWeServe from './components/who-we-serve';
 
 const HomePage = () => {
     return (
-        <main className="pt-16 md:pt-24">
+        <main className="pt-16 md:pt-24 overflow-hidden">
             {/* Hero section */}
             <section className="overflow-hidden lg:min-h-[100vh_-_96px]">
                 <PageWrapper className="grid-cols-[40%_60%] gap-x-[27px] space-y-10 lg:ml-auto  lg:mr-0 lg:grid lg:w-[95%] lg:space-y-0">
                     <div className="space-y-3 pt-5 text-black md:space-y-6 md:pt-[64px] lg:space-y-5 xl:space-y-6">
-                        <h1 className="font-millik text-4xl font-normal md:text-[54px] md:leading-[80px] lg:text-2xl lg:leading-8 xl:text-[54px] xl:leading-[80px]">
+                        <h1 className="font-millik text-4xl font-normal md:text-[54px] md:leading-[80px] lg:text-2xl lg:leading-8 xl:text-4xl 2xl:text-[54px] 2xl:leading-[80px]">
                             Securely and Affordably Own a Home in Nigeria.{' '}
                             <span className="text-primary lg:block xl:inline">
                                 We Serve Nigerians Across the Globe.
                             </span>
                         </h1>
-                        <p className="font-redHatDisplay text-sm font-medium md:text-xl lg:text-sm xl:text-lg xl:leading-8">
+                        <p className="font-redHatDisplay text-sm font-medium md:text-xl lg:text-sm xl:text-base 2xl:text-lg 2xl:leading-8">
                             Experience confidence when buying a home in Nigeria whether you’re
                             in Nigeria or <span className="font-bold">Abroad!</span> Enjoy
                             peace of mind with legitimate transactions, straightfoward
@@ -41,7 +41,7 @@ const HomePage = () => {
                             <Button className="rounded-[40px] font-redHatDisplay text-sm font-bold md:h-16 md:w-[148px] md:text-xl md:leading-[26px] lg:h-10 lg:text-sm xl:h-16 xl:w-[148px] xl:text-xl xl:leading-[26px]">
                                 Find a Home
                             </Button>
-                            <div className="flex h-10 w-full max-w-[484px] items-center justify-center rounded-[10px] border-2 border-primary font-redHatDisplay text-xs font-bold text-primary  md:h-[81px] md:text-xl md:leading-8 lg:h-10 lg:w-full lg:text-xs xl:h-[81px] xl:text-xl xl:leading-8">
+                            <div className="flex h-10 w-full max-w-[484px] items-center justify-center rounded-[10px] border-2 border-primary font-redHatDisplay text-xs font-bold text-primary  md:h-[81px] md:text-xl md:leading-8 lg:h-10 lg:w-full lg:text-xs xl:h-[81px] xl:text-lg 2xl:text-xl 2xl:leading-8">
                                 10,000 People Have Seen This
                             </div>
                         </div>
@@ -152,7 +152,7 @@ const HomePage = () => {
                         Here’s Why!
                     </h1>
                     <PageWrapper>
-                        <div className="grid grid-cols-1 gap-y-[17px] md:grid-cols-2 md:gap-x-[17px] xl:grid-cols-4 xl:gap-x-[52px]">
+                        <div className="grid grid-cols-1 gap-y-[17px] md:grid-cols-2 md:gap-x-[17px] xl:grid-cols-4 xl:gap-x-5 2xl:gap-x-[52px]">
                             {siteContent?.why?.map((item) => (
                                 <div
                                     key={uuidv4()}
@@ -165,7 +165,7 @@ const HomePage = () => {
                                                 'mx-auto transition-transform duration-300 ease-in-out transform hover:scale-110',
                                         }
                                     )}
-                                    <h4 className="mt-4 text-center text-lg font-normal text-primary transition-colors duration-300 ease-in-out  md:text-xl lg:text-2xl lg:leading-[40px]">
+                                    <h4 className="mt-4 text-center text-lg font-normal text-primary transition-colors duration-300 ease-in-out  md:text-xl lg:text-2xl lg:leading-[40px] xl:text-xl 2xl:text-2xl 2xl:leading-[40px]">
                                         {item?.title}
                                     </h4>
                                     <p className="font-redHatDisplay text-sm font-normal text-black transition-colors duration-300 ease-in-out hover:text-gray-700 md:text-base md:leading-[26px]">

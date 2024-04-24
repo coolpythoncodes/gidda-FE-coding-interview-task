@@ -12,7 +12,7 @@ import PageWrapper from './page-wrapper';
 
 const Navbar = () => {
     return (
-        <header className="fixed z-50 h-16 w-full bg-[#F2F2F2] shadow-[0_3px_6px_#00000005] md:h-24">
+        <header className="fixed overflow-hidden z-50 h-16 w-full bg-[#F2F2F2] shadow-[0_3px_6px_#00000005] md:h-24">
             <PageWrapper className="flex h-full items-center justify-between">
                 <div className="flex items-center">
                     <Image
@@ -20,14 +20,14 @@ const Navbar = () => {
                         alt="gidda logo"
                         className="h-10 w-10 object-cover md:h-[50px] md:w-[50px]  lg:h-[66px] lg:w-[69px]"
                     />
-                    <div className="ml-[35px] hidden h-12 w-[350px] items-center rounded-[100px] bg-white pl-3 pr-5 shadow-[0_3px_6px_#00000005] md:flex lg:w-[481px]">
+                    <div className="ml-[35px] hidden h-12 w-[350px] items-center rounded-[100px] bg-white pl-3 pr-5 shadow-[0_3px_6px_#00000005] md:flex">
                         <Input
                             placeholder="Search For Properties, Developers, Banks"
                             className="flex-1 border-none font-serif text-base  font-normal leading-8 shadow-none outline-none ring-transparent"
                         />
                         <Search className="text-primary" />
                     </div>
-                    <nav className="text-darkGrey ml-[55px] hidden items-center gap-x-[68px] font-redHatDisplay text-base font-normal xl:flex ">
+                    <nav className="text-darkGrey ml-[55px] hidden items-center gap-x-5 font-redHatDisplay text-sm font-normal xl:flex ">
                         {siteNavigation?.navbarNavigation?.map((navLink) => (
                             <div key={uuidv4()} className="[&:nth-child(1)&>.dot]:block relative first:font-bold first:text-primary">
                                 <Link
