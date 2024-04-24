@@ -1,13 +1,17 @@
 'use client';
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 
+import { useStoreContext } from '@/app/store';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useToast } from '@/hooks/use-toast.hook';
+import GiddaaApi from '@/lib/api/api.routes';
+import { type LoginFormData } from '@/types/api.routes.types';
 import { yupResolver } from '@hookform/resolvers/yup';
+import { useMutation } from '@tanstack/react-query';
 import { Loader2 } from 'lucide-react';
-import { signIn } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
-import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { object, string, type InferType } from 'yup';
 
@@ -16,46 +20,45 @@ const loginSchema = object({
     password: string().required('Password is required'),
 }).required();
 
-type LoginFormData = InferType<typeof loginSchema>;
+type FormData = InferType<typeof loginSchema>;
 
 const LoginForm = () => {
-    const [isLoading, setIsLoading] = useState(false);
     const router = useRouter();
     const { toast } = useToast();
+    const { setStore } = useStoreContext();
     const {
         register,
         handleSubmit,
         formState: { errors },
-    } = useForm<LoginFormData>({
+    } = useForm<FormData>({
         resolver: yupResolver(loginSchema),
     });
 
-    const onSubmit = (data: LoginFormData) => {
-        setIsLoading(true);
-        void signIn('credentials', {
-            email: data?.email,
-            password: data?.password,
-            redirect: false,
-            callbackUrl: '/dashboard',
-        }).then((res) => {
-            if (res?.ok) {
-                console.log("res", res)
-                setIsLoading(false);
-                // update({token:res?.data?.})
-                router.push('/dashboard');
-                toast({
-                    description: 'login was successful',
-                });
-            } else {
-                toast({
-                    variant: 'destructive',
-                    title: 'Uh oh! Something went wrong.',
-                    description: 'There was a problem with your request.',
-                });
-                setIsLoading(false);
-            }
-            setIsLoading(false);
-        });
+    const loginMutation = useMutation({
+        mutationFn: (data: LoginFormData) => GiddaaApi.login(data),
+        onSuccess: (data) => {
+            // @ts-expect-error unknown error
+            setStore({
+                isLoggedIn: true,
+                access_token: data?.data?.value?.value?.token,
+            });
+            toast({
+                title: 'Login successful',
+                description: 'You have successfully logged in',
+            });
+            router.push('/dashboard');
+        },
+        onError: () => {
+            toast({
+                title: 'Login failed',
+                description: 'Invalid email or password',
+                variant: 'destructive',
+            });
+        },
+    });
+
+    const onSubmit = (data: FormData) => {
+        loginMutation.mutate(data);
     };
 
     return (
@@ -84,8 +87,10 @@ const LoginForm = () => {
                     </p>
                 </div>
             </div>
-            <Button disabled={isLoading} className="w-full">
-                {isLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+            <Button disabled={loginMutation.isPending} className="w-full">
+                {loginMutation.isPending && (
+                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                )}
                 Please wait
             </Button>
         </form>

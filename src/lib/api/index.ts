@@ -1,6 +1,7 @@
 import { env } from '@/env';
 import axios, { type AxiosInstance } from 'axios';
 
+
 interface IApiInstance {
     GiddaaApiInstance: AxiosInstance;
 }
@@ -15,11 +16,10 @@ ApiInstance.GiddaaApiInstance = axios.create({
 
 // ApiInstance.GiddaaApiInstance.interceptors.request.use(
 //     async (request) => {
-//         const session = await getSession();
-//         console.log('session', session);
-//         if (session) {
-//             request.headers.Authorization = `Bearer ${session.accessToken}`;
-//         }
+//         const token = "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImQ2MDhjMWZmLWMzMTktNDgwMC04MTNlLWFmZmFlMTRmMDkyNiIsIk5hbWUiOiJMb3JkIFZvbGRlbW9ydCIsIlJvbGVJZCI6IkRFVkVMT1BFUl9BRE1JTl9ST0xFIiwiRW1haWwiOiJpbmZvQHRoZXZpZXcuY29tIiwiZXhwIjoxNzE0NTAzNzg0LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjcxOTAiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjcxOTAifQ.YXR6FwDrMlebnNutOjaWlfNTB0FQCdHk1Tv8tbumTWE"
+
+//         request.headers.Authorization = `Bearer ${token}`;
+
 //         return request;
 //     }
 // )

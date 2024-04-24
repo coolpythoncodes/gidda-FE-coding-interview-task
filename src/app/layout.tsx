@@ -2,6 +2,7 @@ import { millik, red_hat_display } from '@/lib/font';
 import { cn } from '@/lib/utils';
 import Providers from '@/providers';
 import '@/styles/globals.css';
+import { StoreContextProvider } from './store';
 
 export const metadata = {
   title: {
@@ -31,7 +32,9 @@ export default function RootLayout({
           millik.className
         )}
       >
-        <Providers>{children}</Providers>
+        <Providers>
+          <StoreContextProvider>{children}</StoreContextProvider>
+        </Providers>
       </body>
     </html>
   );
